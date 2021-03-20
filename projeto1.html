@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Elton Santos - Dog Profile</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+  <style>
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #7a68e0bd;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 {
+      background-color: #1a2abc; /* Green */
+      color: #ffffff;
+
+  }
+
+  h3{
+      font-size: 40px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      
+  }
+
+  .bg-2 {
+      background-color: #222325; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 {
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 {
+      background-color: #070707; /* Black Gray */
+      color: rgb(211, 163, 5);
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 15px;
+      letter-spacing: 5px;
+      font-weight: bold;
+  }
+  .navbar-nav  li a:hover {
+      color: #f70707 !important;
+  }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Dê me um nome</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Cachorro</a></li>
+        <li><a href="#what">Vira Lata</a></li>
+        <li><a href="#">Simpático</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Perfil de um cachorro!</h3>
+  <img src="./img/dog4.jpeg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+  <h3>Look at me now</h3>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 id="what" class="margin">Vira Lata, Simpático e Educado</h3>
+  <p> Olá! Desculpe-me por não dizer meu nome, pois essa função eu deixo específicamente para você...caso queira adotar-me! (...) O que eu tenho pra dizer é que mesmo sofrendo de abandono, continuo sendo um cachorro esperançoso e pronto para ser Feliz ao seu lado! </p>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">
+  <h3 class="margin">Ah! Quase me esqueço: "As vezes sou bem exibido rs!"</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Sou super inteligente e educado, aqui no instituto, todos
+        gostam de mim!</p>
+      <img src="./img/dog10.jpeg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4">
+      <p>Eu gosto de me divertir tanto dentro
+        de casa quanto na chuva e/ou na lama!</p>
+      <img src="./img/dog10.jpeg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4">
+      <p>Ah! Eu também sou bravo, caso algum ladrão se aproxime,
+        eu o expulso!</p>
+      <img src="./img/dog10.jpeg"img-responsive margin" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div>
+
+<section>
+
+
+
+
+  
+</section>
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+
+  <h1 class="heading">Entre em contato comigo</h1>
+  <button type="button" class="btn btn-default" aria-label="Left Align">
+  <span class="fa fa-facebook" aria-hidden="true"></span>
+</button>
+  <button type="button" class="btn btn-default" aria-label="Left Align">
+  <span class="fa fa-linkedin" aria-hidden="true"></span>
+
+  
+</button>
+
+<br> <br> <br>
+
+
+<form id="formulario-geral">
+<label for="titulo">Seu Nome</label>
+<input id="dados" type="text" name="nome" autocomplete="off">
+
+<br>
+
+<label for="titulo">Seu Email</label>
+<input id="dados" type="email" name="nome" autocomplete="off">
+
+<br>
+<button id="botao-clicar"> Adicionar </button>
+
+</form>
+
+</footer>
+<script src="./index.js"></script>
+</body>
+</html>
+

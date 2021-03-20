@@ -1,0 +1,101 @@
+@import "https://fonts.googleapis.com/icon?family=Material+Icons"
+@import "https://fonts.googleapis.com/css?family=Passion+One:400,700"
+@import "https://fonts.googleapis.com/css?family=Overlock:400,700"
+$black: #1F1F21
+$white: #FFFFFF
+$dark-gray: #8E8E93
+$gray: #BDBEC2
+$light-gray: #C7C7CC
+$accent: linear-gradient(#87FC70, #0BD318)
+$black-gr: linear-gradient(#2B2B2B, #4A4A4A)
+
+body
+  font-family: 'Overlock', Arial
+  background: $black-gr
+  color: $dark-gray
+  font-weight: 700
+  font-size: 18px
+  line-height: 18px
+h1, h2
+  font-family: 'Passion One', Serif
+  color: $black
+  font-weight: 700
+.product_container
+  width: 650px
+  margin: 5% auto
+  padding: 30px
+  background: $white
+  border: 1px solid $light-gray
+  box-sizing: border-box
+  border-radius: 1px
+  .closer 
+    width: 100%
+    overflow: auto
+    i
+      float: right
+      font-size: 30px
+      color: $gray
+      cursor: pointer
+      &:hover
+        color: $dark-gray
+  .product_images,
+  .product_info
+    box-sizing: border-box
+    float: left
+  .product_images
+    width: 40%
+    text-align: center
+    img
+      margin-top: 10%
+      width: 90%
+      max-width: 90%
+  .product_info
+    width: 60%
+    padding: 0 30px
+    p.price
+      color: $black
+      font-weight: 700
+      font-size: 24px
+    .btn
+      vertical-align: middle
+      font-size: 20px
+      line-height: 30px
+      height: 30px
+      padding: 10px
+      background: $accent
+      color: $white
+      border: 1px solid #A4E786
+      border-radius: 2px
+      cursor: pointer
+      text-align: center
+      opacity: 0.9
+      transition: opacity 0.2s ease-in-out
+      &:hover
+        opacity: 1
+  .clear
+    clear: both
+  .product_footer
+    margin-top: 60px
+    padding-top: 60px
+    border-top: 1px solid $light-gray
+    .col-1-2
+      box-sizing: border-box
+      width: 50%
+      float: left
+      padding: 10px
+    h2
+      margin-top: 0
+    ul
+      padding-top: 0
+      padding-left: 0
+      li
+        list-style-type: none
+        margin-bottom: 10px
+    table
+      border-collapse: collapse
+      tr
+        th
+          border-bottom: 1px solid $light-gray
+        th, td
+          padding: 5px 10px
+          
